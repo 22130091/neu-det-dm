@@ -34,10 +34,8 @@ from sklearn.metrics import (
 from torch.utils.data import DataLoader
 from torchvision import datasets, models, transforms
 
-
-# ==============================================================================
-# 1. ĐỌC CONFIG.YAML & CỐ ĐỊNH SEED
-# ==============================================================================
+ 
+#  ĐỌC CONFIG.YAML & CỐ ĐỊNH SEED 
 def get_project_root() -> Path:
     """Tự động xác định thư mục gốc dự án dù chạy từ root hay từ thư mục `src/`."""
     current_file = Path(__file__).resolve()
@@ -102,10 +100,8 @@ def set_seed(seed: int = 42) -> None:
     if torch.cuda.is_available():
         torch.cuda.manual_seed_all(seed)
 
-
-# ==============================================================================
-# 2. TIỀN XỬ LÝ TẬP TEST & THỐNG KÊ PHÂN BỐ STANFORD DOGS (MỤC IV.A)
-# ==============================================================================
+ 
+#   TIỀN XỬ LÝ TẬP TEST & THỐNG KÊ PHÂN BỐ 
 def get_eval_transform(
     resize_size: int = 256,
     img_size: int = 224,
@@ -145,10 +141,8 @@ def compute_dataset_stats(data_dir: Path, split_name: str) -> Dict[str, Any]:
         "mean_images_per_class": round(float(counts.mean()), 2) if len(counts) > 0 else 0.0,
     }
 
-
-# ==============================================================================
-# 3. KHỞI TẠO KIẾN TRÚC & NẠP TRỌNG SỐ (120 LỚP)
-# ==============================================================================
+ 
+#  KHỞI TẠO KIẾN TRÚC & NẠP TRỌNG SỐ 
 def clean_state_dict(raw_ckpt: Any) -> Dict[str, torch.Tensor]:
     """Chuẩn hóa state_dict (hỗ trợ cả checkpoint lưu full dict hoặc DDP/DataParallel)."""
     if isinstance(raw_ckpt, dict):
@@ -248,10 +242,8 @@ def discover_weights(weights_dir: Path) -> List[Tuple[str, str, Path]]:
 
     return jobs
 
-
-# ==============================================================================
-# 4. ĐO HIỆU NĂNG TÍNH TOÁN: PARAMS (M), FLOPS (G), LATENCY (MS/ẢNH)
-# ==============================================================================
+ 
+#   ĐO HIỆU NĂNG TÍNH TOÁN: PARAMS (M), FLOPS (G), LATENCY (MS/ẢNH) 
 def compute_params_and_flops(
     model: nn.Module,
     device: torch.device,
@@ -304,10 +296,8 @@ def measure_single_image_latency(
 
     return round((elapsed / measure_runs) * 1000.0, 2)
 
-
-# ==============================================================================
-# 5. ĐÁNH GIÁ & XUẤT FILE KẾT QUẢ (120 GIỐNG CHÓ)
-# ==============================================================================
+ 
+#  ĐÁNH GIÁ & XUẤT FILE KẾT QUẢ  
 def save_confusion_matrix_plot(
     cm: np.ndarray,
     output_png: Path,
@@ -405,7 +395,7 @@ def evaluate_single_model(
             probs = torch.softmax(logits, dim=1)
             confs, preds = torch.max(probs, dim=1)
 
-            # Tính thêm Top-5 Accuracy
+            # Tính  Top-5 Accuracy
             k_top = min(5, num_classes)
             _, top5_preds = torch.topk(probs, k=k_top, dim=1)
             top5_correct += int((top5_preds.cpu() == labels.unsqueeze(1)).any(dim=1).sum().item())
@@ -423,7 +413,7 @@ def evaluate_single_model(
     prec, rec, f1 = prec * 100.0, rec * 100.0, f1 * 100.0
     batch_latency_ms = (batch_infer_time / total_samples) * 1000.0
 
-    # 1) Xuất dự đoán chi tiết từng ảnh (8,580 ảnh)
+    #   Xuất dự đoán chi tiết từng ảnh  
     pred_rows = []
     for (img_path, _), true_id, pred_id, conf in zip(
         test_dataset.samples, all_labels, all_preds, all_confs
@@ -443,7 +433,7 @@ def evaluate_single_model(
         encoding="utf-8-sig",
     )
 
-    # 2) Xuất báo cáo chi tiết 120 giống chó
+    #   Xuất báo cáo chi tiết 120 giống chó
     cls_report = classification_report(
         all_labels,
         all_preds,
@@ -456,7 +446,7 @@ def evaluate_single_model(
         encoding="utf-8-sig",
     )
 
-    # 3) Xuất Confusion Matrix 120x120 (.npy, .csv, .png) & Top cặp giống chó dễ nhầm lẫn
+    #  Xuất Confusion Matrix 120x120 (.npy, .csv, .png)  
     cm = confusion_matrix(all_labels, all_preds)
     np.save(output_dir / f"confusion_matrix_{model_key}.npy", cm)
     pd.DataFrame(cm, index=breed_names, columns=breed_names).to_csv(
@@ -476,7 +466,7 @@ def evaluate_single_model(
         encoding="utf-8-sig",
     )
 
-    # 4) Lưu danh sách ánh xạ nhãn 0-119 (hữu ích cho nhóm Web Demo)
+    #  Lưu danh sách ánh xạ nhãn 0-119  
     label_map = {str(idx): {"folder": raw_classes[idx], "breed": breed_names[idx]} for idx in range(num_classes)}
     with open(output_dir / "class_mapping_120.json", "w", encoding="utf-8") as f:
         json.dump(label_map, f, indent=4, ensure_ascii=False)
@@ -502,10 +492,8 @@ def evaluate_single_model(
     print(json.dumps(summary, indent=2, ensure_ascii=False))
     return summary
 
-
-# ==============================================================================
-# 6. HÀM CHÍNH (CLI)
-# ==============================================================================
+ 
+#   HÀM CHÍNH (CLI) 
 def parse_args(project_root: Path) -> argparse.Namespace:
     parser = argparse.ArgumentParser(
         description="Đánh giá so sánh ResNet-50, EfficientNet-B0 và Swin-Tiny trên Stanford Dogs (120 giống chó)."
@@ -606,7 +594,7 @@ def main() -> None:
     print(f"Thiết bị thực thi : {device}")
     print(f"Tiền xử lý Test   : Resize({resize_size}) -> CenterCrop({img_size}), batch_size={batch_size}, seed={seed}")
 
-    # 1. Thống kê phân bố dữ liệu Stanford Dogs (Mục IV.A.1)
+    
     dataset_stats = {}
     for split_name, p in [("train", train_dir), ("validation", val_dir), ("test", test_dir)]:
         if p.is_dir():
@@ -616,7 +604,7 @@ def main() -> None:
         json.dump(dataset_stats, f, indent=4, ensure_ascii=False)
     print("\nThống kê tập dữ liệu:", json.dumps(dataset_stats, indent=2, ensure_ascii=False))
 
-    # 2. Nạp tập dữ liệu Test (8,580 ảnh, 120 lớp)
+  
     if not test_dir.is_dir():
         raise FileNotFoundError(
             f"Không tìm thấy thư mục tập Test tại: {test_dir}. "
@@ -638,7 +626,7 @@ def main() -> None:
         pin_memory=(device.type == "cuda"),
     )
 
-    # 3. Xác định các mô hình cần đánh giá
+   
     model_jobs: List[Tuple[str, str, Path]] = []
     if args.resnet_weights:
         model_jobs.append(("resnet50", "ResNet-50", Path(args.resnet_weights)))
@@ -647,7 +635,7 @@ def main() -> None:
     if args.swin_weights:
         model_jobs.append(("swin_tiny", "Swin-Tiny", Path(args.swin_weights)))
 
-    # Kiểm tra đường dẫn trong config.yaml nếu chưa truyền CLI
+    
     if not model_jobs and weights_cfg:
         for key, label in [
             ("resnet50", "ResNet-50"),
@@ -659,7 +647,7 @@ def main() -> None:
                 if cand.is_file():
                     model_jobs.append((key, label, cand))
 
-    # Quét tự động thư mục `weights/`
+    
     if not model_jobs:
         model_jobs = discover_weights(Path(args.weights_dir))
 
