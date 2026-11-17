@@ -658,7 +658,7 @@ def main() -> None:
             "vào thư mục `weights/` hoặc truyền tham số --effnet_weights / --resnet_weights / --swin_weights."
         )
 
-    # 4. Chạy đánh giá và tổng hợp Bảng III
+    #   Chạy đánh giá và tổng hợp Bảng  
     all_summaries = []
     for model_key, display_name, weights_path in model_jobs:
         if not weights_path.is_file():

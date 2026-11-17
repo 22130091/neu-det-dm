@@ -1,20 +1,5 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-Kịch bản tải và phân chia dữ liệu Stanford Dogs (120 giống chó) vào thư mục `data/`.
-Đặt tại: src/prepare_data.py
-
-Chức năng:
-  - Tự động tải bộ dữ liệu `miljan/stanford-dogs-dataset-traintest` từ Kaggle qua `kagglehub`.
-  - Thực hiện đúng quy trình làm sạch, kiểm tra ảnh lỗi, lọc trùng SHA-256 và chia tập
-    Train (10.200 ảnh) / Val (1.800 ảnh) / Test (8.580 ảnh) theo `seed=42`, `val_ratio=0.15`
-    giống hệt notebook huấn luyện trên Colab.
-  - Tự động dọn dẹp dữ liệu cũ (nếu còn sót thư mục của đề tài NEU-DET) và chép ảnh vào:
-      data/train/<120 thư mục giống chó>/
-      data/val/<120 thư mục giống chó>/
-      data/test/<120 thư mục giống chó>/
-"""
-
 import argparse
 from collections import defaultdict
 import hashlib
@@ -117,15 +102,13 @@ def export_split_to_folders(df: pd.DataFrame, target_dir: Path, split_name: str)
     """Chép ảnh vào thư mục `data/<split>/<tên_giống_chó>/<tên_file>`."""
     clear_split_dir(target_dir)
     copied = 0
-    for row in df.itertuples(index=False):
-        # Dùng tên thư mục chuẩn hóa theo thứ tự bảng chữ cái để ImageFolder đọc đúng nhãn 0..119
+    for row in df.itertuples(index=False): 
         breed_folder = row.label.replace(" ", "_")
         dest_class_dir = target_dir / breed_folder
         dest_class_dir.mkdir(parents=True, exist_ok=True)
 
         src_path = Path(row.path)
-        dest_path = dest_class_dir / src_path.name
-        # Tránh trùng tên file nếu 2 ảnh khác thư mục gốc có cùng tên
+        dest_path = dest_class_dir / src_path.name 
         if dest_path.exists():
             dest_path = dest_class_dir / f"{src_path.parent.name}_{src_path.name}"
 
