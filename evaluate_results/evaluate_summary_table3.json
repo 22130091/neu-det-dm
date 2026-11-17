@@ -1,0 +1,44 @@
+[
+    {
+        "Mô hình": "ResNet-50",
+        "Model Key": "resnet50",
+        "Số ảnh Test": 8580,
+        "Acc (%)": 24.74,
+        "Top-5 Acc (%)": 56.33,
+        "Prec (%)": 22.35,
+        "Rec (%)": 24.42,
+        "F1 (%)": 21.9,
+        "FLOPs (G)": 8.26,
+        "Latency (ms/ảnh)": 45.63,
+        "Batch Latency (ms/ảnh)": 53.54,
+        "Params (M)": 23.75
+    },
+    {
+        "Mô hình": "EfficientNet-B0",
+        "Model Key": "efficientnet_b0",
+        "Số ảnh Test": 8580,
+        "Acc (%)": 86.45,
+        "Top-5 Acc (%)": 98.88,
+        "Prec (%)": 86.13,
+        "Rec (%)": 85.92,
+        "F1 (%)": 85.77,
+        "FLOPs (G)": 0.83,
+        "Latency (ms/ảnh)": 19.72,
+        "Batch Latency (ms/ảnh)": 22.08,
+        "Params (M)": 4.16
+    },
+    {
+        "Mô hình": "Swin-Tiny",
+        "Model Key": "swin_tiny",
+        "Số ảnh Test": 8580,
+        "Acc (%)": 88.28,
+        "Top-5 Acc (%)": 98.87,
+        "Prec (%)": 87.58,
+        "Rec (%)": 87.77,
+        "F1 (%)": 87.53,
+        "FLOPs (G)": 8.74,
+        "Latency (ms/ảnh)": 58.91,
+        "Batch Latency (ms/ảnh)": 53.08,
+        "Params (M)": 27.61
+    }
+]

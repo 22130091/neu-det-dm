@@ -9,3 +9,4 @@ seaborn
 Pillow
 PyYAML
 streamlit
+pip install -r requirements.txt

@@ -1,0 +1,16 @@
+﻿Giống chó thực tế (True),Bị dự đoán nhầm thành (Predicted),Số ảnh nhầm,Tổng ảnh lớp thực tế,Tỷ lệ nhầm (%)
+siberian husky,eskimo dog,30,92,32.61
+miniature poodle,toy poodle,19,55,34.55
+staffordshire bullterrier,american staffordshire terrier,16,55,29.09
+toy poodle,miniature poodle,16,51,31.37
+silky terrier,yorkshire terrier,15,83,18.07
+shih-tzu,lhasa,14,114,12.28
+eskimo dog,siberian husky,13,50,26.0
+border collie,collie,12,50,24.0
+greater swiss mountain dog,entlebucher,12,68,17.65
+scottish deerhound,irish wolfhound,12,132,9.09
+australian terrier,yorkshire terrier,11,96,11.46
+irish wolfhound,scottish deerhound,11,118,9.32
+walker hound,english foxhound,10,53,18.87
+entlebucher,appenzeller,10,102,9.8
+english foxhound,walker hound,10,57,17.54

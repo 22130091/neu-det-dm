@@ -218,3 +218,9 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# Bỏ qua toàn bộ 20.580 ảnh dữ liệu và môi trường ảo
+data/
+.venv/
+__pycache__/
+*.pyc
+weights/swin_tiny_best.pth

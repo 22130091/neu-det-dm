@@ -1,0 +1,4 @@
+﻿Mô hình,Model Key,Số ảnh Test,Acc (%),Top-5 Acc (%),Prec (%),Rec (%),F1 (%),FLOPs (G),Latency (ms/ảnh),Batch Latency (ms/ảnh),Params (M)
+ResNet-50,resnet50,8580,24.74,56.33,22.35,24.42,21.9,8.26,45.63,53.54,23.75
+EfficientNet-B0,efficientnet_b0,8580,86.45,98.88,86.13,85.92,85.77,0.83,19.72,22.08,4.16
+Swin-Tiny,swin_tiny,8580,88.28,98.87,87.58,87.77,87.53,8.74,58.91,53.08,27.61

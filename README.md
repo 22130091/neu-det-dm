@@ -1,2 +1,2 @@
 # neu-det-dm
-Đồ án Datamining: Phân loại tự động lỗi bề mặt thép cán nóng (NEU-DET) sử dụng Học chuyển giao (DenseNet121, EfficientNet-B0, ViT)
+Đồ án Datamining: Phân loại 120 giống chó (Fine-grained Image Classification)

@@ -1,0 +1,14 @@
+{
+    "Mô hình": "EfficientNet-B0",
+    "Model Key": "efficientnet_b0",
+    "Số ảnh Test": 8580,
+    "Acc (%)": 86.45,
+    "Top-5 Acc (%)": 98.88,
+    "Prec (%)": 86.13,
+    "Rec (%)": 85.92,
+    "F1 (%)": 85.77,
+    "FLOPs (G)": 0.83,
+    "Latency (ms/ảnh)": 19.72,
+    "Batch Latency (ms/ảnh)": 22.08,
+    "Params (M)": 4.16
+}

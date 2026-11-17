@@ -1,0 +1,482 @@
+{
+    "0": {
+        "folder": "affenpinscher",
+        "breed": "affenpinscher"
+    },
+    "1": {
+        "folder": "afghan_hound",
+        "breed": "afghan hound"
+    },
+    "2": {
+        "folder": "african_hunting_dog",
+        "breed": "african hunting dog"
+    },
+    "3": {
+        "folder": "airedale",
+        "breed": "airedale"
+    },
+    "4": {
+        "folder": "american_staffordshire_terrier",
+        "breed": "american staffordshire terrier"
+    },
+    "5": {
+        "folder": "appenzeller",
+        "breed": "appenzeller"
+    },
+    "6": {
+        "folder": "australian_terrier",
+        "breed": "australian terrier"
+    },
+    "7": {
+        "folder": "basenji",
+        "breed": "basenji"
+    },
+    "8": {
+        "folder": "basset",
+        "breed": "basset"
+    },
+    "9": {
+        "folder": "beagle",
+        "breed": "beagle"
+    },
+    "10": {
+        "folder": "bedlington_terrier",
+        "breed": "bedlington terrier"
+    },
+    "11": {
+        "folder": "bernese_mountain_dog",
+        "breed": "bernese mountain dog"
+    },
+    "12": {
+        "folder": "black-and-tan_coonhound",
+        "breed": "black-and-tan coonhound"
+    },
+    "13": {
+        "folder": "blenheim_spaniel",
+        "breed": "blenheim spaniel"
+    },
+    "14": {
+        "folder": "bloodhound",
+        "breed": "bloodhound"
+    },
+    "15": {
+        "folder": "bluetick",
+        "breed": "bluetick"
+    },
+    "16": {
+        "folder": "border_collie",
+        "breed": "border collie"
+    },
+    "17": {
+        "folder": "border_terrier",
+        "breed": "border terrier"
+    },
+    "18": {
+        "folder": "borzoi",
+        "breed": "borzoi"
+    },
+    "19": {
+        "folder": "boston_bull",
+        "breed": "boston bull"
+    },
+    "20": {
+        "folder": "bouvier_des_flandres",
+        "breed": "bouvier des flandres"
+    },
+    "21": {
+        "folder": "boxer",
+        "breed": "boxer"
+    },
+    "22": {
+        "folder": "brabancon_griffon",
+        "breed": "brabancon griffon"
+    },
+    "23": {
+        "folder": "briard",
+        "breed": "briard"
+    },
+    "24": {
+        "folder": "brittany_spaniel",
+        "breed": "brittany spaniel"
+    },
+    "25": {
+        "folder": "bull_mastiff",
+        "breed": "bull mastiff"
+    },
+    "26": {
+        "folder": "cairn",
+        "breed": "cairn"
+    },
+    "27": {
+        "folder": "cardigan",
+        "breed": "cardigan"
+    },
+    "28": {
+        "folder": "chesapeake_bay_retriever",
+        "breed": "chesapeake bay retriever"
+    },
+    "29": {
+        "folder": "chihuahua",
+        "breed": "chihuahua"
+    },
+    "30": {
+        "folder": "chow",
+        "breed": "chow"
+    },
+    "31": {
+        "folder": "clumber",
+        "breed": "clumber"
+    },
+    "32": {
+        "folder": "cocker_spaniel",
+        "breed": "cocker spaniel"
+    },
+    "33": {
+        "folder": "collie",
+        "breed": "collie"
+    },
+    "34": {
+        "folder": "curly-coated_retriever",
+        "breed": "curly-coated retriever"
+    },
+    "35": {
+        "folder": "dandie_dinmont",
+        "breed": "dandie dinmont"
+    },
+    "36": {
+        "folder": "dhole",
+        "breed": "dhole"
+    },
+    "37": {
+        "folder": "dingo",
+        "breed": "dingo"
+    },
+    "38": {
+        "folder": "doberman",
+        "breed": "doberman"
+    },
+    "39": {
+        "folder": "english_foxhound",
+        "breed": "english foxhound"
+    },
+    "40": {
+        "folder": "english_setter",
+        "breed": "english setter"
+    },
+    "41": {
+        "folder": "english_springer",
+        "breed": "english springer"
+    },
+    "42": {
+        "folder": "entlebucher",
+        "breed": "entlebucher"
+    },
+    "43": {
+        "folder": "eskimo_dog",
+        "breed": "eskimo dog"
+    },
+    "44": {
+        "folder": "flat-coated_retriever",
+        "breed": "flat-coated retriever"
+    },
+    "45": {
+        "folder": "french_bulldog",
+        "breed": "french bulldog"
+    },
+    "46": {
+        "folder": "german_shepherd",
+        "breed": "german shepherd"
+    },
+    "47": {
+        "folder": "german_short-haired_pointer",
+        "breed": "german short-haired pointer"
+    },
+    "48": {
+        "folder": "giant_schnauzer",
+        "breed": "giant schnauzer"
+    },
+    "49": {
+        "folder": "golden_retriever",
+        "breed": "golden retriever"
+    },
+    "50": {
+        "folder": "gordon_setter",
+        "breed": "gordon setter"
+    },
+    "51": {
+        "folder": "great_dane",
+        "breed": "great dane"
+    },
+    "52": {
+        "folder": "great_pyrenees",
+        "breed": "great pyrenees"
+    },
+    "53": {
+        "folder": "greater_swiss_mountain_dog",
+        "breed": "greater swiss mountain dog"
+    },
+    "54": {
+        "folder": "groenendael",
+        "breed": "groenendael"
+    },
+    "55": {
+        "folder": "ibizan_hound",
+        "breed": "ibizan hound"
+    },
+    "56": {
+        "folder": "irish_setter",
+        "breed": "irish setter"
+    },
+    "57": {
+        "folder": "irish_terrier",
+        "breed": "irish terrier"
+    },
+    "58": {
+        "folder": "irish_water_spaniel",
+        "breed": "irish water spaniel"
+    },
+    "59": {
+        "folder": "irish_wolfhound",
+        "breed": "irish wolfhound"
+    },
+    "60": {
+        "folder": "italian_greyhound",
+        "breed": "italian greyhound"
+    },
+    "61": {
+        "folder": "japanese_spaniel",
+        "breed": "japanese spaniel"
+    },
+    "62": {
+        "folder": "keeshond",
+        "breed": "keeshond"
+    },
+    "63": {
+        "folder": "kelpie",
+        "breed": "kelpie"
+    },
+    "64": {
+        "folder": "kerry_blue_terrier",
+        "breed": "kerry blue terrier"
+    },
+    "65": {
+        "folder": "komondor",
+        "breed": "komondor"
+    },
+    "66": {
+        "folder": "kuvasz",
+        "breed": "kuvasz"
+    },
+    "67": {
+        "folder": "labrador_retriever",
+        "breed": "labrador retriever"
+    },
+    "68": {
+        "folder": "lakeland_terrier",
+        "breed": "lakeland terrier"
+    },
+    "69": {
+        "folder": "leonberg",
+        "breed": "leonberg"
+    },
+    "70": {
+        "folder": "lhasa",
+        "breed": "lhasa"
+    },
+    "71": {
+        "folder": "malamute",
+        "breed": "malamute"
+    },
+    "72": {
+        "folder": "malinois",
+        "breed": "malinois"
+    },
+    "73": {
+        "folder": "maltese_dog",
+        "breed": "maltese dog"
+    },
+    "74": {
+        "folder": "mexican_hairless",
+        "breed": "mexican hairless"
+    },
+    "75": {
+        "folder": "miniature_pinscher",
+        "breed": "miniature pinscher"
+    },
+    "76": {
+        "folder": "miniature_poodle",
+        "breed": "miniature poodle"
+    },
+    "77": {
+        "folder": "miniature_schnauzer",
+        "breed": "miniature schnauzer"
+    },
+    "78": {
+        "folder": "newfoundland",
+        "breed": "newfoundland"
+    },
+    "79": {
+        "folder": "norfolk_terrier",
+        "breed": "norfolk terrier"
+    },
+    "80": {
+        "folder": "norwegian_elkhound",
+        "breed": "norwegian elkhound"
+    },
+    "81": {
+        "folder": "norwich_terrier",
+        "breed": "norwich terrier"
+    },
+    "82": {
+        "folder": "old_english_sheepdog",
+        "breed": "old english sheepdog"
+    },
+    "83": {
+        "folder": "otterhound",
+        "breed": "otterhound"
+    },
+    "84": {
+        "folder": "papillon",
+        "breed": "papillon"
+    },
+    "85": {
+        "folder": "pekinese",
+        "breed": "pekinese"
+    },
+    "86": {
+        "folder": "pembroke",
+        "breed": "pembroke"
+    },
+    "87": {
+        "folder": "pomeranian",
+        "breed": "pomeranian"
+    },
+    "88": {
+        "folder": "pug",
+        "breed": "pug"
+    },
+    "89": {
+        "folder": "redbone",
+        "breed": "redbone"
+    },
+    "90": {
+        "folder": "rhodesian_ridgeback",
+        "breed": "rhodesian ridgeback"
+    },
+    "91": {
+        "folder": "rottweiler",
+        "breed": "rottweiler"
+    },
+    "92": {
+        "folder": "saint_bernard",
+        "breed": "saint bernard"
+    },
+    "93": {
+        "folder": "saluki",
+        "breed": "saluki"
+    },
+    "94": {
+        "folder": "samoyed",
+        "breed": "samoyed"
+    },
+    "95": {
+        "folder": "schipperke",
+        "breed": "schipperke"
+    },
+    "96": {
+        "folder": "scotch_terrier",
+        "breed": "scotch terrier"
+    },
+    "97": {
+        "folder": "scottish_deerhound",
+        "breed": "scottish deerhound"
+    },
+    "98": {
+        "folder": "sealyham_terrier",
+        "breed": "sealyham terrier"
+    },
+    "99": {
+        "folder": "shetland_sheepdog",
+        "breed": "shetland sheepdog"
+    },
+    "100": {
+        "folder": "shih-tzu",
+        "breed": "shih-tzu"
+    },
+    "101": {
+        "folder": "siberian_husky",
+        "breed": "siberian husky"
+    },
+    "102": {
+        "folder": "silky_terrier",
+        "breed": "silky terrier"
+    },
+    "103": {
+        "folder": "soft-coated_wheaten_terrier",
+        "breed": "soft-coated wheaten terrier"
+    },
+    "104": {
+        "folder": "staffordshire_bullterrier",
+        "breed": "staffordshire bullterrier"
+    },
+    "105": {
+        "folder": "standard_poodle",
+        "breed": "standard poodle"
+    },
+    "106": {
+        "folder": "standard_schnauzer",
+        "breed": "standard schnauzer"
+    },
+    "107": {
+        "folder": "sussex_spaniel",
+        "breed": "sussex spaniel"
+    },
+    "108": {
+        "folder": "tibetan_mastiff",
+        "breed": "tibetan mastiff"
+    },
+    "109": {
+        "folder": "tibetan_terrier",
+        "breed": "tibetan terrier"
+    },
+    "110": {
+        "folder": "toy_poodle",
+        "breed": "toy poodle"
+    },
+    "111": {
+        "folder": "toy_terrier",
+        "breed": "toy terrier"
+    },
+    "112": {
+        "folder": "vizsla",
+        "breed": "vizsla"
+    },
+    "113": {
+        "folder": "walker_hound",
+        "breed": "walker hound"
+    },
+    "114": {
+        "folder": "weimaraner",
+        "breed": "weimaraner"
+    },
+    "115": {
+        "folder": "welsh_springer_spaniel",
+        "breed": "welsh springer spaniel"
+    },
+    "116": {
+        "folder": "west_highland_white_terrier",
+        "breed": "west highland white terrier"
+    },
+    "117": {
+        "folder": "whippet",
+        "breed": "whippet"
+    },
+    "118": {
+        "folder": "wire-haired_fox_terrier",
+        "breed": "wire-haired fox terrier"
+    },
+    "119": {
+        "folder": "yorkshire_terrier",
+        "breed": "yorkshire terrier"
+    }
+}

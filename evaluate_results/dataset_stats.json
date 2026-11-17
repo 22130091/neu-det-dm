@@ -1,0 +1,26 @@
+{
+    "train": {
+        "split": "train",
+        "total_images": 10200,
+        "num_classes": 120,
+        "min_images_per_class": 85,
+        "max_images_per_class": 85,
+        "mean_images_per_class": 85.0
+    },
+    "validation": {
+        "split": "validation",
+        "total_images": 1800,
+        "num_classes": 120,
+        "min_images_per_class": 15,
+        "max_images_per_class": 15,
+        "mean_images_per_class": 15.0
+    },
+    "test": {
+        "split": "test",
+        "total_images": 8580,
+        "num_classes": 120,
+        "min_images_per_class": 48,
+        "max_images_per_class": 152,
+        "mean_images_per_class": 71.5
+    }
+}

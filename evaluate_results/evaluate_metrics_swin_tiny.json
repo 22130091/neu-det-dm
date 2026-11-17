@@ -1,0 +1,14 @@
+{
+    "Mô hình": "Swin-Tiny",
+    "Model Key": "swin_tiny",
+    "Số ảnh Test": 8580,
+    "Acc (%)": 88.28,
+    "Top-5 Acc (%)": 98.87,
+    "Prec (%)": 87.58,
+    "Rec (%)": 87.77,
+    "F1 (%)": 87.53,
+    "FLOPs (G)": 8.74,
+    "Latency (ms/ảnh)": 58.91,
+    "Batch Latency (ms/ảnh)": 53.08,
+    "Params (M)": 27.61
+}

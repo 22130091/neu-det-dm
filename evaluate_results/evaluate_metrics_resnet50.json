@@ -1,0 +1,14 @@
+{
+    "Mô hình": "ResNet-50",
+    "Model Key": "resnet50",
+    "Số ảnh Test": 8580,
+    "Acc (%)": 24.74,
+    "Top-5 Acc (%)": 56.33,
+    "Prec (%)": 22.35,
+    "Rec (%)": 24.42,
+    "F1 (%)": 21.9,
+    "FLOPs (G)": 8.26,
+    "Latency (ms/ảnh)": 45.63,
+    "Batch Latency (ms/ảnh)": 53.54,
+    "Params (M)": 23.75
+}
