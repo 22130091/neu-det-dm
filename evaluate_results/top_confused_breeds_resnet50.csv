@@ -1,16 +1,16 @@
 ﻿Giống chó thực tế (True),Bị dự đoán nhầm thành (Predicted),Số ảnh nhầm,Tổng ảnh lớp thực tế,Tỷ lệ nhầm (%)
-irish wolfhound,scottish deerhound,30,118,25.42
 siberian husky,eskimo dog,21,92,22.83
-silky terrier,yorkshire terrier,21,83,25.3
-australian terrier,yorkshire terrier,20,96,20.83
-entlebucher,appenzeller,20,102,19.61
-great pyrenees,kuvasz,20,113,17.7
-shih-tzu,lhasa,19,114,16.67
-great pyrenees,samoyed,18,113,15.93
-collie,shetland sheepdog,17,53,32.08
-lhasa,shih-tzu,15,86,17.44
-yorkshire terrier,silky terrier,15,64,23.44
-rhodesian ridgeback,redbone,14,72,19.44
-miniature schnauzer,standard schnauzer,13,54,24.07
-greater swiss mountain dog,entlebucher,13,68,19.12
-collie,border collie,12,53,22.64
+miniature poodle,toy poodle,20,55,36.36
+staffordshire bullterrier,american staffordshire terrier,17,55,30.91
+eskimo dog,siberian husky,16,50,32.0
+appenzeller,entlebucher,15,51,29.41
+silky terrier,yorkshire terrier,15,83,18.07
+australian terrier,yorkshire terrier,14,96,14.58
+scottish deerhound,irish wolfhound,13,132,9.85
+collie,border collie,13,53,24.53
+irish wolfhound,scottish deerhound,12,118,10.17
+lhasa,shih-tzu,12,86,13.95
+malamute,siberian husky,11,78,14.1
+american staffordshire terrier,staffordshire bullterrier,11,64,17.19
+australian terrier,silky terrier,10,96,10.42
+great pyrenees,kuvasz,9,113,7.96
