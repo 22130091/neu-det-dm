@@ -3,14 +3,14 @@
         "Mô hình": "ResNet-50",
         "Model Key": "resnet50",
         "Số ảnh Test": 8580,
-        "Acc (%)": 24.74,
-        "Top-5 Acc (%)": 56.33,
-        "Prec (%)": 22.35,
-        "Rec (%)": 24.42,
-        "F1 (%)": 21.9,
+        "Acc (%)": 59.66,
+        "Top-5 Acc (%)": 87.16,
+        "Prec (%)": 58.14,
+        "Rec (%)": 58.89,
+        "F1 (%)": 57.96,
         "FLOPs (G)": 8.26,
-        "Latency (ms/ảnh)": 45.63,
-        "Batch Latency (ms/ảnh)": 53.54,
+        "Latency (ms/ảnh)": 49.41,
+        "Batch Latency (ms/ảnh)": 49.44,
         "Params (M)": 23.75
     },
     {
@@ -23,8 +23,8 @@
         "Rec (%)": 85.92,
         "F1 (%)": 85.77,
         "FLOPs (G)": 0.83,
-        "Latency (ms/ảnh)": 19.72,
-        "Batch Latency (ms/ảnh)": 22.08,
+        "Latency (ms/ảnh)": 18.23,
+        "Batch Latency (ms/ảnh)": 21.21,
         "Params (M)": 4.16
     },
     {
@@ -37,8 +37,8 @@
         "Rec (%)": 87.77,
         "F1 (%)": 87.53,
         "FLOPs (G)": 8.74,
-        "Latency (ms/ảnh)": 58.91,
-        "Batch Latency (ms/ảnh)": 53.08,
+        "Latency (ms/ảnh)": 55.11,
+        "Batch Latency (ms/ảnh)": 54.46,
         "Params (M)": 27.61
     }
 ]

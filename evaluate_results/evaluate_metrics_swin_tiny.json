@@ -8,7 +8,7 @@
     "Rec (%)": 87.77,
     "F1 (%)": 87.53,
     "FLOPs (G)": 8.74,
-    "Latency (ms/ảnh)": 58.91,
-    "Batch Latency (ms/ảnh)": 53.08,
+    "Latency (ms/ảnh)": 55.11,
+    "Batch Latency (ms/ảnh)": 54.46,
     "Params (M)": 27.61
 }

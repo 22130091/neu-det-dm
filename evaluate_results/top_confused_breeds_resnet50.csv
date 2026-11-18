@@ -1,16 +1,16 @@
 ﻿Giống chó thực tế (True),Bị dự đoán nhầm thành (Predicted),Số ảnh nhầm,Tổng ảnh lớp thực tế,Tỷ lệ nhầm (%)
-great pyrenees,samoyed,33,113,29.2
-maltese dog,west highland white terrier,26,152,17.11
-chow,pomeranian,23,96,23.96
-papillon,japanese spaniel,21,96,21.88
-miniature pinscher,rottweiler,18,84,21.43
-vizsla,redbone,17,54,31.48
-bernese mountain dog,entlebucher,17,118,14.41
-cairn,soft-coated wheaten terrier,17,97,17.53
-maltese dog,sealyham terrier,17,152,11.18
-brittany spaniel,blenheim spaniel,16,52,30.77
-entlebucher,greater swiss mountain dog,16,102,15.69
-irish wolfhound,scottish deerhound,16,118,13.56
-bernese mountain dog,appenzeller,16,118,13.56
-blenheim spaniel,welsh springer spaniel,15,88,17.05
-great pyrenees,sealyham terrier,15,113,13.27
+irish wolfhound,scottish deerhound,30,118,25.42
+siberian husky,eskimo dog,21,92,22.83
+silky terrier,yorkshire terrier,21,83,25.3
+australian terrier,yorkshire terrier,20,96,20.83
+entlebucher,appenzeller,20,102,19.61
+great pyrenees,kuvasz,20,113,17.7
+shih-tzu,lhasa,19,114,16.67
+great pyrenees,samoyed,18,113,15.93
+collie,shetland sheepdog,17,53,32.08
+lhasa,shih-tzu,15,86,17.44
+yorkshire terrier,silky terrier,15,64,23.44
+rhodesian ridgeback,redbone,14,72,19.44
+miniature schnauzer,standard schnauzer,13,54,24.07
+greater swiss mountain dog,entlebucher,13,68,19.12
+collie,border collie,12,53,22.64

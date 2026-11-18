@@ -1,6 +1,8 @@
 torch
 torchvision
 timm
+thop
+kagglehub
 pandas
 numpy
 scikit-learn
@@ -9,4 +11,3 @@ seaborn
 Pillow
 PyYAML
 streamlit
-pip install -r requirements.txt
